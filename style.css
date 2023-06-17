@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    background:gray;
+}
+nav{
+    background:#594848;
+    width:100%;
+    overflow:auto;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+li{
+    float:left;
+}
+nav a{
+    width:120px;
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    background:#594848;
+    font-size:17px;
+    color:white;
+    padding:20px 10px;
+    font-family:Open Sans;
+}
+nav a:hover{
+    background:orange;
+    color:aqua;
+}
